@@ -24,6 +24,30 @@ public class Perro {
     public Perro() {
         
     }
+
+    public int getChip() {
+        return chip;
+    }
+
+    public void setChip(int chip) {
+        this.chip = chip;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
     
     
 }
