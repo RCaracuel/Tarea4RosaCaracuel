@@ -48,6 +48,11 @@ public class Perro {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Perro{" + "chip=" + chip + ", raza=" + raza + ", color=" + color + '}';
+    }
     
     
 }
