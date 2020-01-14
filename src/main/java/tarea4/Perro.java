@@ -14,4 +14,18 @@ public class Perro {
     int chip;
     String raza;
     String color;
+
+    public Perro(int chip, String raza, String color) {
+        this.chip = chip;
+        this.raza = raza;
+        this.color = color;
+    }
+
+    public Perro() {
+        
+    }
+    
+    
 }
+
+
